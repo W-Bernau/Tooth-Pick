@@ -1,0 +1,62 @@
+.open-sans-import {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: italic;
+    font-style: bold;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+.header{
+    width: 100%;
+    height: 7%;
+    display:flex;
+    justify-content: center;
+}
+
+.title{
+
+}
+
+.body{
+width: 100%;
+height: 600px;
+
+}
+
+.footer{
+
+}
+
+#gamespace{
+    width: 500px;
+    height: 500px;
+    margin-inline: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    text-align: center;
+}
+.edge{
+    height: 1%;
+    width: 15%;
+    margin-inline: 3px;
+    background-color: rgba(51, 51, 51, 0.05);
+    border-radius: 8px;
+    border-width: 0;
+    color: #000;
+
+  transition: all 200ms;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.black{
+    background-color: black;
+}
