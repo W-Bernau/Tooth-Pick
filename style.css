@@ -121,3 +121,15 @@ p{
   touch-action: manipulation;
   margin-block: 10px;
 }
+
+.signUp{
+  display: flex;
+  justify-content: center;
+
+}
+.signUp button{
+  text-decoration: underline;
+  background-color: white;
+  border: 0;
+  color: black
+}

@@ -109,6 +109,12 @@ function applyRules() {
     }
 }
 
+document.getElementById("accountInfo").onclick = function(){
+
+customAlert.alert("Account functionality is still being built. Check back soon!")
+
+}
+
 // Calling all defined functions
 createPuzzle()
 createInfo()
