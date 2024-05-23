@@ -111,7 +111,7 @@ function applyRules() {
 
 document.getElementById("accountInfo").onclick = function(){
 
-customAlert.alert("Account functionality is still being built. Check back soon!")
+    signupAlert.alert("Account functionality is still being built.", "Check back soon!")
 
 }
 
