@@ -25,8 +25,8 @@ app.get('/', (req, res) => {
     app.use(express.static('/Users/willbernau/Documents/Tooth-Pick/frontend'));
 })
 
-app.get('/signUp.html', (req, res) => {
-    res.sendFile('/Users/willbernau/Documents/Tooth-Pick/frontend/signUp.html')
+app.get('Tooth-Pick/signUp', (req, res) => {
+    res.sendFile('/Users/willbernau/Documents/Tooth-Pick/signUp.html')
 })
 
 app.listen(8080, () => {
