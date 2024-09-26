@@ -101,7 +101,6 @@ function applyRules() {
                 finalPatternArray.forEach( num => {
                     finalPatternNumber += num
                 })
-                alert(finalPatternNumber)
                 checkWinCondition(bigInt(finalPatternNumber), winningPatterns)
             }
         }
